@@ -1,0 +1,44 @@
+{
+  "name": "pavilion-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-preset-stage-1": "^6.24.1",
+    "bloomer": "^0.6.5",
+    "bulma": "^0.7.5",
+    "bulma-carousel": "^4.0.4",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0",
+    "react-bulma-components": "^2.3.0",
+    "react-dom": "^16.9.0",
+    "react-images": "^1.0.0",
+    "react-photo-gallery": "^8.0.0",
+    "react-responsive-carousel": "^3.1.50",
+    "react-scripts": "3.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3"
+  }
+}

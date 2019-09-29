@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  /* padding: 5px; */
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.icon-section {
+  /* min-height: 20px; */
+  padding: 0 10px;
+}
+
+a {
+  color: #00b7ff;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.beautiful-heading-transparent {
+  font-size: 5rem;
+  font-family: "Herr Von Muellerhoff", cursive;
+  color: #dedede;
+}
+
+.beautiful-heading-dark {
+  font-size: 2rem;
+  margin-top: -50px;
+}
+
+.icon-section-para {
+  padding: 2px;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.section-heading {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.welcome-description {
+  padding: 0 50px;
+}
+
+.location-data {
+  padding: 10px;
+}
+
+.legend-main {
+  position: absolute;
+  bottom: 0px;
+  background: rgba(242, 245, 242, 0.5);
+  color: #000000;
+  height: 100%;
+  width: 50%;
+  opacity: 50%;
+}
+
+.is-row {
+  flex-direction: column;
+}
+
+.read-more-hover:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.secondary-carousel {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.living-slider {
+  padding: 0 10px;
+}
+
+.luxury-heading {
+}
+
+.luxury-description {
+}
+
+@import "../node_modules/bulma/css/bulma.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css";
+@import "https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff&display=swap&subset=latin-ext";
