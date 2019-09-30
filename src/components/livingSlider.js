@@ -17,15 +17,15 @@ const Slider = () => {
           showThumbs={false}
         >
           <div>
-            <img src={banner1} />
+            <img src="https://cdn.digitaliz.in/wp-content/uploads/2019/09/livingBanner1.jpg" />
             <p className="legend-main">Text Comes Up Here</p>
           </div>
           <div>
-            <img src={banner2} />
+            <img src="https://cdn.digitaliz.in/wp-content/uploads/2019/09/livingBanner2.jpg" />
             <p className="legend-main">Text Comes Up Here</p>
           </div>
           <div>
-            <img src={banner3} />
+            <img src="https://cdn.digitaliz.in/wp-content/uploads/2019/09/livingBanner3.jpg" />
             <p className="legend-main">Text Comes Up Here</p>
           </div>
         </Carousel>

@@ -1,7 +1,8 @@
 .App {
   text-align: center;
   /* padding: 5px; */
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; */
+  font-family: "Dosis", sans-serif;
 }
 
 .icon-section {
@@ -96,12 +97,13 @@ h4 {
   padding: 0 10px;
 }
 
-.luxury-heading {
+/* .luxury-heading {
 }
 
 .luxury-description {
-}
+} */
 
 @import "../node_modules/bulma/css/bulma.min.css";
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css";
 @import "https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff&display=swap&subset=latin-ext";
+@import "https://fonts.googleapis.com/css?family=Dosis:500&display=swap";

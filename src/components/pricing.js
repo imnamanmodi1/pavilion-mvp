@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import BeautifulHeading from "./beautiful-heading";
-import priceList from "../price-list.png";
 
 export default class Pricing extends Component {
   render() {
@@ -12,7 +11,7 @@ export default class Pricing extends Component {
           </div>
           <div className="columns">
             <div className="column">
-              <img src={priceList} />
+              <img src="https://cdn.digitaliz.in/wp-content/uploads/2019/09/price-list.png" />
             </div>
           </div>
         </div>

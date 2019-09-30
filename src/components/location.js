@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import LocationMap from "../location-map.jpg";
 import BeautifulHeading from "./beautiful-heading";
 
 export default class Location extends Component {
@@ -9,7 +8,7 @@ export default class Location extends Component {
         <BeautifulHeading lightHeading="Location" darkHeading="Advantage" />
         <div className="columns location-data">
           <div className="column">
-            <img src={LocationMap} />
+            <img src="https://cdn.digitaliz.in/wp-content/uploads/2019/09/location-map.jpg" />
           </div>
           <div className="column">
             <div class="list is-hoverable">
