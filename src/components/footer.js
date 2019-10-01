@@ -15,8 +15,6 @@ export default class Footer extends Component {
                 information purposes. It should not be considered/ claimed as an
                 official site of Panchshil
               </div>
-              <br />
-              <div className="credits bold">Made for Pavilion LandMarks</div>
             </p>
           </div>
         </div>

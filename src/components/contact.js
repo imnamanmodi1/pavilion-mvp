@@ -63,9 +63,9 @@ export default class Contact extends Component {
               <h4 class="connect-heading">Connect Now</h4>
               <br />
               <p>
-                <b>Call Us:</b> <a href="tel:918386878380">+91-8386878380</a>
+                <b>Call Us:</b> <a href="tel:917276038387">+91-7276038387</a>
                 <br />
-                <b>Email Us:</b> pavilionlandmarks@gmail.com
+                <br />
               </p>
               <br />
               <br />

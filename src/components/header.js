@@ -62,7 +62,7 @@ export default class header extends Component {
 
         <NavbarMenu isActive={this.state.isActive} onClick={this.onClickNav}>
           <NavbarStart>
-            <NavbarItem href="#">Home</NavbarItem>
+            <NavbarItem href="/">Home</NavbarItem>
             <NavbarItem href="#welcome-navigator">Overview</NavbarItem>
             <NavbarItem href="#amenities-navigator">Amenities</NavbarItem>
             <NavbarItem href="#price-navigator">Price List</NavbarItem>
@@ -72,7 +72,7 @@ export default class header extends Component {
           </NavbarStart>
           <NavbarEnd>
             <NavbarItem
-              href="https://api.whatsapp.com/send?phone=918386878380"
+              href="https://api.whatsapp.com/send?phone=917276038387"
               isHidden="touch"
             >
               <Icon className="fab fa-2x fa-whatsapp-square" />
@@ -86,7 +86,7 @@ export default class header extends Component {
             <NavbarItem>
               <Field isGrouped>
                 <Control>
-                  <Button id="call" href="tel:918386878380">
+                  <Button id="call" href="tel:917276038387">
                     <Icon className="fas fa-phone-square-alt" />
                     <span>Call</span>
                   </Button>
