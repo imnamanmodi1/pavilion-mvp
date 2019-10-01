@@ -9,6 +9,7 @@ import Gallery from "./components/gallery";
 import Location from "./components/location";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import LeadForm from "./components/leadForm";
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 
 import "./App.css";
@@ -27,6 +28,7 @@ function App() {
       <Location />
       <Contact />
       <Footer />
+      <LeadForm />
     </div>
   );
 }

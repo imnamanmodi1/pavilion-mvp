@@ -14,13 +14,22 @@ const Slider = () => {
           showThumbs={false}
         >
           <div>
-            <img src="https://cdn.digitaliz.in/wp-content/uploads/2019/09/livingBanner1.jpg" />
+            <img src="https://cdn.digitaliz.in/wp-content/uploads/2019/10/IMG-20191001-WA0008.jpg" />
           </div>
           <div>
-            <img src="https://cdn.digitaliz.in/wp-content/uploads/2019/09/livingBanner2.jpg" />
+            <img src="https://cdn.digitaliz.in/wp-content/uploads/2019/10/IMG-20191001-WA0009.jpg" />
           </div>
           <div>
-            <img src="https://cdn.digitaliz.in/wp-content/uploads/2019/09/livingBanner3.jpg" />
+            <img src="https://cdn.digitaliz.in/wp-content/uploads/2019/10/IMG-20191001-WA0010.jpg" />
+          </div>
+          <div>
+            <img src="https://cdn.digitaliz.in/wp-content/uploads/2019/10/IMG-20191001-WA0011.jpg" />
+          </div>
+          <div>
+            <img src="https://cdn.digitaliz.in/wp-content/uploads/2019/10/IMG-20191001-WA0012.jpg" />
+          </div>
+          <div>
+            <img src="https://cdn.digitaliz.in/wp-content/uploads/2019/10/IMG-20191001-WA0013.jpg" />
           </div>
         </Carousel>
       </div>
