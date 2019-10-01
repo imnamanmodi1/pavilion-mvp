@@ -8,12 +8,15 @@ import Price from "./components/pricing";
 import Gallery from "./components/gallery";
 import Location from "./components/location";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
+import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <ScrollUpButton />
       <Header />
       <Slider />
       <Welcome />
@@ -23,6 +26,7 @@ function App() {
       <Gallery />
       <Location />
       <Contact />
+      <Footer />
     </div>
   );
 }
