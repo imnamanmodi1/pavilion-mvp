@@ -48,7 +48,7 @@ export default class header extends Component {
           >
             <Icon className="fab fa-2x fa-whatsapp-square" />
           </NavbarItem>
-          <NavbarItem isHidden="desktop" href="tel:917276038387">
+          <NavbarItem isHidden="desktop" href="tel:07276038387">
             <Icon className="fas fa-2x fa-phone-square-alt" />
           </NavbarItem>
           <NavbarBurger
@@ -83,7 +83,7 @@ export default class header extends Component {
             <NavbarItem>
               <Field isGrouped>
                 <Control>
-                  <Button id="call" href="tel:917276038387">
+                  <Button id="call" href="tel:07276038387">
                     <Icon className="fas fa-phone-square-alt" />
                     <span>Call</span>
                   </Button>
