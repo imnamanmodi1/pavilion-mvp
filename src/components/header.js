@@ -33,7 +33,7 @@ export default class header extends Component {
   };
   render() {
     return (
-      <Navbar style={{ margin: "0" }}>
+      <Navbar className="is-fixed-top" style={{ margin: "0" }}>
         <NavbarBrand>
           <NavbarItem>
             <img
@@ -44,15 +44,12 @@ export default class header extends Component {
           </NavbarItem>
           <NavbarItem
             isHidden="desktop"
-            href="https://api.whatsapp.com/send?phone=918386878380"
+            href="https://api.whatsapp.com/send?phone=917276038387"
           >
             <Icon className="fab fa-2x fa-whatsapp-square" />
           </NavbarItem>
-          <NavbarItem isHidden="desktop" href="https://www.facebook.com/">
-            <Icon
-              className="fab fa-2x fa-facebook-square"
-              style={{ color: "#55acee" }}
-            />
+          <NavbarItem isHidden="desktop" href="tel:917276038387">
+            <Icon className="fas fa-2x fa-phone-square-alt" />
           </NavbarItem>
           <NavbarBurger
             isActive={this.state.isActive}
