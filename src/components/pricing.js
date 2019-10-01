@@ -5,7 +5,7 @@ export default class Pricing extends Component {
   render() {
     return (
       <>
-        <div>
+        <div id="price-navigator">
           <div className="pricing-heading">
             <BeautifulHeading lightHeading="Price" darkHeading="Detail" />
           </div>

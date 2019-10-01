@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import banner1 from "../livingBanner1.jpg";
-import banner2 from "../livingBanner2.jpg";
-import banner3 from "../livingBanner3.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import BeautifulHeading from "./beautiful-heading";
@@ -18,15 +15,12 @@ const Slider = () => {
         >
           <div>
             <img src="https://cdn.digitaliz.in/wp-content/uploads/2019/09/livingBanner1.jpg" />
-            <p className="legend-main">Text Comes Up Here</p>
           </div>
           <div>
             <img src="https://cdn.digitaliz.in/wp-content/uploads/2019/09/livingBanner2.jpg" />
-            <p className="legend-main">Text Comes Up Here</p>
           </div>
           <div>
             <img src="https://cdn.digitaliz.in/wp-content/uploads/2019/09/livingBanner3.jpg" />
-            <p className="legend-main">Text Comes Up Here</p>
           </div>
         </Carousel>
       </div>
@@ -46,32 +40,29 @@ export default class LivingSlider extends Component {
           <div className="column">
             <div className="columns is-row">
               <div className="column">
-                <h4 className="bold">KITCHEN AREA</h4>
+                <h4 className="bold">GLOBAL BENCHMARK PRODUCTS</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Panchshil Towers Kharadi is known for its quality product
+                  which is best in the industry one of the finest structures in
+                  India and gives excellent quality product Just next to world
+                  trade centre.
                 </p>
                 <hr />
               </div>
               <div className="column">
-                <h4 className="bold">LIVING ROOM</h4>
+                <h4 className="bold">THOUGHTFULLY DESIGNED SPACE</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Panchshil Provides best designed spaces which is interiored by
+                  best in class designers.
                 </p>
                 <hr />
               </div>
               <div className="column">
-                <h4 className="bold">MASTER BEDROOM</h4>
+                <h4 className="bold">BEST IN INDUSTRY CONSTRUCTION</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  We at Panchshil towers kharadi provides you world class
+                  construction material for your safety and security and to
+                  innovate in the industry.
                 </p>
                 <hr />
               </div>

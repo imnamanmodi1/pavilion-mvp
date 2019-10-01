@@ -36,7 +36,11 @@ export default class header extends Component {
       <Navbar style={{ margin: "0" }}>
         <NavbarBrand>
           <NavbarItem>
-            <img src="" style={{ marginRight: 5 }} /> PAVILION LANDMARKS
+            <img
+              className="logo-img"
+              src="https://cdn.digitaliz.in/wp-content/uploads/2019/10/panchshil-tower-logo.png"
+              style={{ marginRight: 5 }}
+            />{" "}
           </NavbarItem>
           <NavbarItem
             isHidden="desktop"
@@ -58,13 +62,13 @@ export default class header extends Component {
 
         <NavbarMenu isActive={this.state.isActive} onClick={this.onClickNav}>
           <NavbarStart>
-            <NavbarItem href="#/">Home</NavbarItem>
-            <NavbarItem href="#/">Overview</NavbarItem>
-            <NavbarItem href="#/">Amenities</NavbarItem>
-            <NavbarItem href="#/">Price List</NavbarItem>
-            <NavbarItem href="#/">Gallery</NavbarItem>
-            <NavbarItem href="#/">Location</NavbarItem>
-            <NavbarItem href="#/">Contact</NavbarItem>
+            <NavbarItem href="#">Home</NavbarItem>
+            <NavbarItem href="#welcome-navigator">Overview</NavbarItem>
+            <NavbarItem href="#amenities-navigator">Amenities</NavbarItem>
+            <NavbarItem href="#price-navigator">Price List</NavbarItem>
+            <NavbarItem href="#gallery-navigator">Gallery</NavbarItem>
+            <NavbarItem href="#location-navigator">Location</NavbarItem>
+            <NavbarItem href="#contact-navigator">Contact</NavbarItem>
           </NavbarStart>
           <NavbarEnd>
             <NavbarItem

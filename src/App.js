@@ -7,6 +7,7 @@ import Welcome from "./components/welcome";
 import Price from "./components/pricing";
 import Gallery from "./components/gallery";
 import Location from "./components/location";
+import Contact from "./components/contact";
 
 import "./App.css";
 
@@ -21,6 +22,7 @@ function App() {
       <Price />
       <Gallery />
       <Location />
+      <Contact />
     </div>
   );
 }

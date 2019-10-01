@@ -1,5 +1,4 @@
 import React, { useState, useCallback } from "react";
-import { render } from "react-dom";
 import ImageGallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "./photos";
@@ -19,7 +18,7 @@ export default function Gallery() {
   };
 
   return (
-    <div>
+    <div id="gallery-navigator">
       <div className="gallery-heading">
         <BeautifulHeading lightHeading="Awesome" darkHeading="Gallery" />
       </div>

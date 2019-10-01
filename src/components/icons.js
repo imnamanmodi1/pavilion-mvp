@@ -4,21 +4,21 @@ import BeautifulHeading from "./beautiful-heading";
 export default function Icons() {
   return (
     <>
-      <div className="icon-section">
+      <div id="amenities-navigator" className="icon-section">
         <BeautifulHeading lightHeading="Awesome" darkHeading="Amenities" />
         <div class="columns">
           <div class="column">
             <div class="box">
               <div className="first-icon">
                 <span class="icon has-text-info is-large">
-                  <i class="fas fa-2x fa-info-circle"></i>
+                  <i class="fas fa-2x fa-dumbbell"></i>
                 </span>
               </div>
               <div className="icon-description">
-                <h4 className="bold">FEATURE HEADING</h4>
+                <h4 className="bold">GYM SERVICES</h4>
                 <p className="icon-section-para">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  We at Panchshil Towers provide luxurious gym facilities for
+                  healthy lifestyle
                 </p>
               </div>
             </div>
@@ -27,14 +27,14 @@ export default function Icons() {
             <div class="box">
               <div className="first-icon">
                 <span class="icon has-text-info is-large">
-                  <i class="fas fa-2x fa-digital-tachograph"></i>
+                  <i class="fas fa-2x fa-swimming-pool"></i>
                 </span>
               </div>
               <div className="icon-description">
-                <h4 className="bold">FEATURE HEADING</h4>
+                <h4 className="bold">SWIMMING POOL</h4>
                 <p className="icon-section-para">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Panchshil Towers has greatest Technology with swimming pool in
+                  vicinity.
                 </p>
               </div>
             </div>
@@ -43,14 +43,14 @@ export default function Icons() {
             <div class="box">
               <div className="first-icon">
                 <span class="icon has-text-info is-large">
-                  <i class="fas fa-2x fa-bed"></i>
+                  <i class="fas fa-2x fa-spray-can"></i>
                 </span>
               </div>
               <div className="icon-description">
-                <h4 className="bold">FEATURE HEADING</h4>
+                <h4 className="bold">SPA SERVICES</h4>
                 <p className="icon-section-para">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Kharadi has new relaxing commitment and the preferred location
+                  is Panchshil Towers
                 </p>
               </div>
             </div>
@@ -63,14 +63,14 @@ export default function Icons() {
             <div class="box">
               <div className="first-icon">
                 <span class="icon has-text-info is-large">
-                  <i class="fas fa-2x fa-bookmark"></i>
+                  <i class="fas fa-2x fa-tractor"></i>
                 </span>
               </div>
               <div className="icon-description">
-                <h4 className="bold">FEATURE HEADING</h4>
+                <h4 className="bold">ORGANIC FARMING</h4>
                 <p className="icon-section-para">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Panchshil towers has excellence in latest trending technology
+                  and it's one of them
                 </p>
               </div>
             </div>
@@ -79,14 +79,14 @@ export default function Icons() {
             <div class="box">
               <div className="first-icon">
                 <span class="icon has-text-info is-large">
-                  <i class="fas fa-2x fa-box-open"></i>
+                  <i class="fas fa-2x fa-user-shield"></i>
                 </span>
               </div>
               <div className="icon-description">
-                <h4 className="bold">FEATURE HEADING</h4>
+                <h4 className="bold">HI-TECH SECURITY</h4>
                 <p className="icon-section-para">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Discover new commitment of Technology with excellence only at
+                  Panchshil Towers
                 </p>
               </div>
             </div>
@@ -95,14 +95,14 @@ export default function Icons() {
             <div class="box">
               <div className="first-icon">
                 <span class="icon has-text-info is-large">
-                  <i class="fas fa-2x fa-car-side"></i>
+                  <i class="fas fa-2x fa-plug"></i>
                 </span>
               </div>
               <div className="icon-description">
-                <h4 className="bold">FEATURE HEADING</h4>
+                <h4 className="bold">24x7 POWER BACKUP</h4>
                 <p className="icon-section-para">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  World class services at Panchshil keeps you away from darkness
+                  always
                 </p>
               </div>
             </div>

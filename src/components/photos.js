@@ -1,13 +1,3 @@
-import firstImage from "./gallery-photos/1.jpg";
-import secondImage from "./gallery-photos/2.jpg";
-import thirdtImage from "./gallery-photos/3.jpg";
-import fourthImage from "./gallery-photos/4.jpg";
-import fifthImage from "./gallery-photos/5.jpg";
-import sixthImage from "./gallery-photos/6.jpg";
-import seventhImage from "./gallery-photos/7.jpg";
-import eightImage from "./gallery-photos/8.jpg";
-import nineImage from "./gallery-photos/9.jpg";
-
 export const photos = [
   {
     src: "https://cdn.digitaliz.in/wp-content/uploads/2019/09/1.jpg",

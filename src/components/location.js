@@ -4,7 +4,7 @@ import BeautifulHeading from "./beautiful-heading";
 export default class Location extends Component {
   render() {
     return (
-      <>
+      <div id="location-navigator">
         <BeautifulHeading lightHeading="Location" darkHeading="Advantage" />
         <div className="columns location-data">
           <div className="column">
@@ -20,7 +20,7 @@ export default class Location extends Component {
             </div>
           </div>
         </div>
-      </>
+      </div>
     );
   }
 }
