@@ -137,6 +137,10 @@ h4 {
   color: #ffffff;
 }
 
+.pointer:hover {
+  cursor: pointer;
+}
+
 @import "../node_modules/bulma/css/bulma.min.css";
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css";
 @import "https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff&display=swap&subset=latin-ext";

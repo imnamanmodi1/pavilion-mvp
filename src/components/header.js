@@ -48,8 +48,15 @@ export default class header extends Component {
           >
             <Icon className="fab fa-2x fa-whatsapp-square" />
           </NavbarItem>
-          <NavbarItem isHidden="desktop" href="tel:07276038387">
-            <Icon className="fas fa-2x fa-phone-square-alt" />
+          <NavbarItem isHidden="desktop">
+            <Field isGrouped>
+              <Control>
+                <Button id="call" href="tel:07276038387">
+                  <Icon className="fas fa-phone-square-alt" />
+                  <span>Call</span>
+                </Button>
+              </Control>
+            </Field>
           </NavbarItem>
           <NavbarBurger
             isActive={this.state.isActive}
