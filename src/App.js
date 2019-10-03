@@ -11,6 +11,7 @@ import Contact from "./components/contact";
 import Footer from "./components/footer";
 import LeadForm from "./components/leadForm";
 import FixedBottomCta from "./components/fixedBottomCta";
+import CallNowFloat from "./components/callNowFloat";
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 import "./App.css";
 
@@ -29,6 +30,7 @@ function App() {
       <Contact />
       <Footer />
       <LeadForm />
+      <CallNowFloat />
     </div>
   );
 }

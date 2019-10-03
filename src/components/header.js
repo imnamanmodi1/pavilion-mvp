@@ -33,7 +33,7 @@ export default class header extends Component {
   };
   render() {
     return (
-      <Navbar className="is-fixed-top" style={{ margin: "0" }}>
+      <Navbar style={{ margin: "0" }}>
         <NavbarBrand>
           <NavbarItem>
             <img
