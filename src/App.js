@@ -10,8 +10,8 @@ import Location from "./components/location";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import LeadForm from "./components/leadForm";
+import FixedBottomCta from "./components/fixedBottomCta";
 import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
-
 import "./App.css";
 
 function App() {
